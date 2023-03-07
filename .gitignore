@@ -1,0 +1,5 @@
+.idea/*
+log/*
+runs/*
+pretrained_models/*
+__pycache__
