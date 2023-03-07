@@ -25,10 +25,10 @@ pip install -r requirements.txt
 
 ## Quick start
 
-You can train on MS-COCO with default settings stored in `./configs/resnet101_to_resnet34_l2d.py`:
+You can train on MS-COCO with default settings stored in `./configs/coco/resnet101_to_resnet34_l2d.py`:
 
 ```
-python main.py --cfg_file ./configs/resnet101_to_resnet34_l2d.py --data_root [file path of MS-COCO stored on your own device]
+python main.py --cfg_file ./configs/coco/resnet101_to_resnet34_l2d.py --data_root [file path of MS-COCO stored on your own device]
 ```
 
 You can also try your own distillers and other options by making your own configuration files under the guidance of [Configuration files](#configuration-files).
