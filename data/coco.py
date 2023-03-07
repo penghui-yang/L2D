@@ -22,7 +22,6 @@ class CocoDataset(Dataset):
         self.ann_file = ann_file
         self.img_list = json.load(open(self.ann_file, "r"))
         self.length = len(self.img_list)
-        print(self.length)
 
         self.gt_labels = np.zeros((self.length, len(self.CLASSES)), dtype=np.int64)
         for i in range(self.length):
