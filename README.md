@@ -1,9 +1,9 @@
 <p align="center">
   <h1 align="center">Multi-Label Knowledge Distillation</h1>
   <p align="center">
-    <a href="https://phyang.top/"><strong>Penghui Yang</strong></a>
+    <a href="https://phyang.top/"><strong>Penghui Yang<sup>*</sup></strong></a>
     ·
-    <a href="https://www.xiemk.pro/"><strong>Ming-Kun Xie</strong></a>
+    <a href="https://www.xiemk.pro/"><strong>Ming-Kun Xie<sup>*</sup></strong></a>
     ·
     <a href="https://chenchenzong.github.io/"><strong>Chen-Chen Zong</strong></a>
     ·
