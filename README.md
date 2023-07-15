@@ -41,22 +41,22 @@ Your Pascal VOC 2007 dataset folder should be like this:
 [Any name you want]
   |--VOCtrainval2007
     |--VOCdevkit
-  	  |--VOC2007
-  	    |--JPEGImages
-  	      |--000005.jpg
-  	      |--...
-  	    |--ImageSets
-  	      |--Main
-  	        |--trainval.txt
+      |--VOC2007
+        |--JPEGImages
+          |--000005.jpg
+          |--...
+        |--ImageSets
+          |--Main
+            |--trainval.txt
   |--VOCtest2007
     |--VOCdevkit
-  	  |--VOC2007
-  	    |--JPEGImages
-  	      |--000001.jpg
-  	      |--...
-  	    |--ImageSets
-  	      |--Main
-  	        |--test.txt
+      |--VOC2007
+        |--JPEGImages
+          |--000001.jpg
+          |--...
+        |--ImageSets
+          |--Main
+            |--test.txt
 ```
 
 Your MS-COCO 2014 dataset folder should be like this:
@@ -65,15 +65,40 @@ Your MS-COCO 2014 dataset folder should be like this:
 [Any name you want]
   |--train2014
     |--COCO_train2014_000000000009.jpg
-  	|--...
+    |--...
   |--val2014
     |--COCO_val2014_000000000042.jpg
-  	|--...
+    |--...
   |--train_anno.json
   |--val_anno.json
 ```
 
 `train_anno.json` and `val_anno.json` are in the fold `./appendix`.
+
+Your NUS-WIDE dataset folder should be like this:
+
+```
+[Any name you want]
+  |--Flickr
+    |--actor
+      |--0001_2124494179.jpg
+      |--0002_174174086.jpg
+      |--...
+    |--administrative_assistant
+      |--0001_534152430.jpg
+      |--0002_258761806.jpg
+      |--...
+    |--...
+  |--ImageList
+    |--Imagelist.txt
+    |--TrainImagelist.txt
+    |--TestImagelist.txt
+  |--TrainTestLabels
+    |--Labels_airport_Train.txt
+    |--Labels_airport_Test.txt
+    |--...
+  |--Concepts81.txt
+```
 
 All codes of the data processing part are in the fold `./data`, and you can replace them with your own code.
 
