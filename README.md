@@ -1,6 +1,25 @@
-# Multi-Label Knowledge Distillation
+<p align="center">
 
-This repository is the official implementation of **Multi-Label Knowledge Distillation**. 
+<h1 align="center">Multi-Label Knowledge Distillation</h1>
+  <p align="center">
+    <a href="https://phyang.top/"><strong>Penghui Yang</strong></a>
+    ·
+    <a href="https://www.xiemk.pro/"><strong>Ming-Kun Xie</strong></a>
+    ·
+    <a href="https://chenchenzong.github.io/"><strong>Chen-Chen Zong</strong></a>
+    ·
+    <a href="https://lfeng-ntu.github.io/"><strong>Lei Feng</strong></a>
+    ·
+    <a href="https://niug1984.github.io/"><strong>Gang Niu</strong></a>
+    ·
+    <a href="http://www.ms.k.u-tokyo.ac.jp/sugi/index.html/"><strong>Masashi Sugiyama</strong></a>
+    ·
+    <a href="http://parnec.nuaa.edu.cn/huangsj/"><strong>Sheng-Jun Huang</strong></a>
+  </p>
+  <h2 align="center">ICCV 2023 Conference Proceedings</h2>
+</p>
+
+<div align=center><img src='./pics/LED.jpg' width=600><\div>
 
 ## Requirements
 
