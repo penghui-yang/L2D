@@ -1,6 +1,5 @@
 <p align="center">
-
-<h1 align="center">Multi-Label Knowledge Distillation</h1>
+  <h1 align="center">Multi-Label Knowledge Distillation</h1>
   <p align="center">
     <a href="https://phyang.top/"><strong>Penghui Yang</strong></a>
     ·
@@ -16,10 +15,9 @@
     ·
     <a href="http://parnec.nuaa.edu.cn/huangsj/"><strong>Sheng-Jun Huang</strong></a>
   </p>
-  <h2 align="center">ICCV 2023 Conference Proceedings</h2>
 </p>
 
-<div align=center><img src='./pics/LED.jpg' width=600><\div>
+<div align=center><img src='./pics/LED.jpg' width=600></div>
 
 ## Requirements
 
