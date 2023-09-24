@@ -1,5 +1,7 @@
 <p align="center">
-  <h1 align="center">Multi-Label Knowledge Distillation</h1>
+  <h1 align="center">
+    <a href="https://arxiv.org/abs/2308.06453">Multi-Label Knowledge Distillation</a>
+  </h1>
   <p align="center">
     <a href="https://phyang.top/"><strong>Penghui Yang<sup>*</sup></strong></a>
     ·
@@ -162,3 +164,28 @@ criterion_t2s_para = dict(
 ```
 
 We split a distiller into three parts: feature-based part, label-wise embedding part and logits-based part. Each part has a balancing parameter lambda and corresponding parameters.
+
+
+## Citation
+
+If you find this repo useful for your research, please consider citing the paper.
+
+```bibtex
+@inproceedings{yang2023multi,
+  title={Multi-Label Knowledge Distillation},
+  author={Penghui Yang, Ming-Kun Xie, Chen-Chen Zong, Lei Feng, Gang Niu, Masashi Sugiyama, Sheng-Jun Huang},
+  booktitle={International Conference on Computer Vision (ICCV)},
+  year={2023},
+}
+```
+
+
+## Acknowledgement
+
+This repo is partly based on the following repos, thank the authors a lot.
+
+1. [Alibaba-MIIL/ASL](https://github.com/Alibaba-MIIL/ASL)
+2. [Alibaba-MIIL/ML-Decoder](https://github.com/Alibaba-MIIL/ML_Decoder)
+3. [wutong16/DistributionBalancedLoss](https://github.com/wutong16/DistributionBalancedLoss)
+4. [microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
+5. [DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG)
