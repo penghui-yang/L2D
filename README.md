@@ -165,6 +165,8 @@ criterion_t2s_para = dict(
 
 We split a distiller into three parts: feature-based part, label-wise embedding part and logits-based part. Each part has a balancing parameter lambda and corresponding parameters.
 
+It is worth noting that you can set `teacher_pretrained = True` after you have already trained a teacher model and stored its weight parameters in order to avoid repetitive training and save your time.
+
 
 ## Citation
 

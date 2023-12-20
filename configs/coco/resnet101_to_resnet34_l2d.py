@@ -1,6 +1,6 @@
 dataset = "coco"
 
-teacher_pretrained = True
+teacher_pretrained = False
 
 img_size = 224
 batch_size = 64
