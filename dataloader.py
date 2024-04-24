@@ -50,6 +50,7 @@ def coco(cfg, data_root):
                   "mouse", "remote", "keyboard", "cell_phone", "microwave",
                   "oven", "toaster", "sink", "refrigerator", "book", "clock",
                   "vase", "scissors", "teddy_bear", "hair_drier", "toothbrush"]
+    class_name.sort()
 
     train_dataset = CocoDataset(train_img_prefix, train_ann_file, class_name, img_size=cfg.img_size, train_mode=True)
     train_loader = DataLoader(train_dataset, batch_size=cfg.batch_size, shuffle=True,
